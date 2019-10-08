@@ -3,8 +3,6 @@ import java.util.ArrayList;
 
 /** class Deck
  *  contains an ArrayList of Cards
- @author Abdoul Bachir
- @author Alibek
  */
 public class Deck{
     

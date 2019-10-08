@@ -11,8 +11,6 @@ import java.io.*;
 
 /**BlackJackGui Class contains all widgets for Blackjack gam
 e interface.
-
-@author Abdoul Bachir
 */
 public class BlackJackGui{
 
