@@ -52,9 +52,7 @@ public class BlackJackGui{
     JLabel downCard;
     JButton playAgain = new JButton("Play again");
 
-	/**SOUND EFFECTS **/
-    Sound cardEffect;
-    Sound song;
+    
     /** BET INFO **/
     int amountBet;
 
@@ -144,12 +142,6 @@ public class BlackJackGui{
         this.load = gm.getLoad();
         setPlayerNames(gm);
         this.amountBet = gm.getBetAmount();
-
-        // Set cardEffect sound and start song automatically
-        cardEffect = new Sound("music/dealingCard.wav");
-        song = new Sound("music/Casino_Ambiance_Music.wav");
-        song.play();
-        song.loop();
 
         frame = new JFrame();
         playerLabelArray[0] = playerLabelS;
@@ -708,7 +700,6 @@ public class BlackJackGui{
     // This section is for a new round of Blackjack
     if(keepRunning == true){
         if(numPlayers == 0){
-            song.stop();
             frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
         } else if(numPlayers == 1){
             cardLabelS.setText(game.getPlayerS().displayHandValue());

@@ -2,3 +2,5 @@
 /BlackJackGui.class
 /Deck.class
 /Card.class
+/Hand.class
+/GuiModel.class
