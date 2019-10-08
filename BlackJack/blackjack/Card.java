@@ -4,7 +4,8 @@ package blackjack;
  *  isAce (check if Ace), and cardNumber (set to face if greater than 10)
  @author Abdoul Bachir
  @author Alibaba
- @author 
+ @author Manuel
+ @author Bea
  */
 public class Card{
     private String name;
