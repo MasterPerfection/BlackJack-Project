@@ -9,16 +9,8 @@ import java.util.ArrayList;
 import java.io.*;
 
 
-/**BlackjackGui Class contains all widgets for Blackjack gam
+/**BlackJackGui Class contains all widgets for Blackjack gam
 e interface.
-   @author Brian Wan
-   @author Fanny Kuang
-   @author Eric Palyan
-   @author David Tsu
-   @author Marco Chavez
-   @author Ryan Kirkpatrick
-   @author Ryan Lorica
-   @version 2017.11.28
 */
 public class BlackJackGui{
 
@@ -143,7 +135,7 @@ public class BlackJackGui{
     int speed = 1000;
     Timer timer;
 
-    BlackjackGui(GuiModel gm){
+    BlackJackGui(GuiModel gm){
         //Get info from GuiModel
         this.game.resetStats();
         this.numPlayers = gm.getNumPlayers();
@@ -840,4 +832,4 @@ public void initialize()
 	    game.getPlayerW().resetMoney(game.p3money);
 	}
     }
-} //end BlackjackGui
+} //end BlackJackGui
